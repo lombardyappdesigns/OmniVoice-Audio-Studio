@@ -1,4 +1,4 @@
-## OmniVoice Audio Studio
+# OmniVoice Audio Studio
 
 OmniVoice Audio Studio is a fully self-hosted, browser-based audio production tool built on top of the k2-fsa/OmniVoice diffusion model.
 
