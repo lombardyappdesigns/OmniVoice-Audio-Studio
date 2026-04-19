@@ -1,6 +1,18 @@
 # OmniVoice Audio Studio
 
-OmniVoice Audio Studio is a fully self-hosted, browser-based audio production tool built on top of the k2-fsa/OmniVoice diffusion model.
+OmniVoice Audio Studio is a self-hosted, browser-based podcast and audiobook production tool built on the [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice)e diffusion TTS model. It provides a full editorial workflow — multi-speaker voice cloning, a voice designer with accent and attribute controls, a multi-track timeline editor with waveform display, ripple editing and trim handles, per-paragraph generation with seed control, episode save/load, a pronunciation dictionary, and one-click WAV export. Supports 600+ languages, runs entirely on your own hardware (CUDA, MPS, or CPU), and requires no cloud services or API keys. Built with Python/Flask and a single-file HTML/JS frontend.
+
+## ✨ Features
+
+- 🎤 **Voice Cloning** — clone any voice from a 3–10 second reference audio clip, up to 4 independent speakers
+- 🎨 **Voice Designer** — design voices from scratch using gender, age, pitch, accent and style attributes
+- ✂️ **Multi-track Timeline Editor** — waveform display, drag-to-reposition, trim handles, cut tool, ripple editing, undo/redo
+- 🎵 **Media Track** — layer background music or SFX alongside your voice content
+- 📝 **Smart Text Parser** — paste your script, split by paragraph/sentence/line, switch speakers with `[Speaker 2]:`, insert silences with `[pause 1.5s]`
+- 🔄 **Per-paragraph Control** — independently edit, regenerate, split, reorder, and seed individual paragraphs
+- 💾 **Episode Save & Load** — save and restore complete projects including audio, timeline layout, and all settings
+- 📖 **Pronunciation Dictionary** — define word substitutions applied before every generation
+- 💿 **WAV Export** — one-click 24kHz WAV download
 
 
 # What it does:
