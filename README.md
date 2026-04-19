@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/4c650032-6295-49b6-878e-aaf8b84b6f01
 
 # **One time Purchase**
 
-Available for a one time purchase price of $7.99
+The Omni Audio Studio interface is available for a one time purchase price of $7.99
 
 **Buy here:** https://payhip.com/b/Tt39j
 
@@ -89,10 +89,15 @@ Ensure you have **Python 3.12** installed. A virtual environment keeps your proj
 
 File Structure
 
+Below is the file structure for the inital setup for install. All models download automatically once the system is up and running.
+
 <img width="709" height="559" alt="image" src="https://github.com/user-attachments/assets/effd1087-4da6-4257-8339-2e33db67b8c2" />
 
 
+
 Create and activate the virtual environment:
+
+In terminal run the following commands.
 
 ```bash
 python -m venv venv
