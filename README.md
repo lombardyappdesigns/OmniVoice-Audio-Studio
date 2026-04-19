@@ -1,4 +1,4 @@
-<img width="624" height="163" alt="image" src="https://github.com/user-attachments/assets/8c6f64ee-eaaa-487c-9703-b5761fc39027" />
+<img width="375" height="131" alt="image" src="https://github.com/user-attachments/assets/cc3a8a42-ceff-40d8-90f0-0a147d610660" />
 
 # OmniVoice Audio Studio
 
