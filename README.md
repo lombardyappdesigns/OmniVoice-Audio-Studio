@@ -201,7 +201,7 @@ Design a voice from scratch using text attributes — no reference audio require
 
 **NOTE:** Voice Clone and Voice Designer are mutually exclusive per speaker. If a clone is loaded, the designer is blocked for that speaker. Clear the clone first to switch modes.
 
-**4 Generation Parameters**
+## **Generation Parameters**
 
 Click the Generation Parameters collapsible to expand. These settings apply globally to all generations.
 
@@ -215,7 +215,7 @@ Click the Generation Parameters collapsible to expand. These settings apply glob
 | Default Pause | 0.3s | Silence gap inserted between paragraphs. Can be overridden per paragraph. |
 | Split By | Paragraph | How input text is split into paragraphs on Parse: by blank line, newline, or sentence. |
 
-**5 Text Input & Parsing**
+## **Text Input & Parsing**
 
 Paste your script into the Text Input area and click Parse Text to split it into paragraphs.
 
@@ -239,7 +239,7 @@ Paste your script into the Text Input area and click Parse Text to split it into
 
 **NOTE:** Parse Text is disabled after audio has been generated. Use Reset All to start fresh with new text.
 
-**6 Paragraph Management**
+## **Paragraph Management**
 
 ### **Paragraph Status**
 
@@ -291,7 +291,7 @@ The Regenerate Pending button appears automatically when any paragraph has been 
 
 **TIP:** Individual paragraph seeds are shown as sliders. Default of 42 gives reproducible output. Change the seed to get a different voice variation for a specific paragraph.
 
-**8 Timeline Editor**
+## **Timeline Editor**
 
 The timeline shows two tracks — Voice (top) and Media (bottom). Each generated paragraph becomes a clip on the Voice track. Media files appear on the Media track and can be positioned freely.
 
@@ -314,7 +314,7 @@ The timeline shows two tracks — Voice (top) and Media (bottom). Each generated
 
 **TIP:** Zoom in for precise trimming of silence at the start or end of a clip. Zoom out for an overview of the full project layout.
 
-**9 Combined Output & Export**
+## **Combined Output & Export**
 
 **1\. Combine All** — merges all paragraph audio, applying all pauses and timeline positions into a single audio buffer.
 
@@ -324,7 +324,7 @@ The timeline shows two tracks — Voice (top) and Media (bottom). Each generated
 
 **TIP:** If you adjust clip positions in the timeline after combining, click Combine All again to rebuild the output with the updated layout.
 
-**10 Episodes — Save & Load**
+## **Episodes — Save & Load**
 
 Episodes save your entire project: all text, generated audio, timeline layout, voice settings, and generation parameters. Use the Episodes button in the header to open the Episodes panel.
 
@@ -346,7 +346,7 @@ Episodes save your entire project: all text, generated audio, timeline layout, v
 
 **NOTE:** Voice reference files are not saved in the episode — only the generated audio. Keep your original reference audio clips if you need to regenerate with the same cloned voice.
 
-**11 Pronunciation Dictionary**
+## **Pronunciation Dictionary**
 
 Define word substitutions that apply automatically before every generation. Useful for proper nouns, acronyms, or technical terms the model may mispronounce.
 
@@ -366,7 +366,7 @@ Define word substitutions that apply automatically before every generation. Usef
 | Dr. | Doctor |
 | APIs | A P I s |
 
-**12 Tips & Best Practices**
+## **Tips & Best Practices**
 
 ### **Voice Cloning Quality**
 
