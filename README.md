@@ -2,6 +2,7 @@
 
 OmniVoice Audio Studio is a fully self-hosted, browser-based audio production tool built on top of the k2-fsa/OmniVoice diffusion model.
 
+
 # What it does:
 
 It lets you turn a script into a finished, multi-speaker audio production — think podcast episodes, audiobook chapters, narrated videos — entirely on your own machine. No cloud, no subscriptions, no data leaving your computer.
@@ -29,6 +30,7 @@ Runs on NVIDIA GPU, Apple Silicon (MPS), or CPU. Output is 24kHz WAV.
 Python/Flask backend, pure HTML/JS frontend (single file, no framework), OmniVoice diffusion model.
 The whole thing runs locally — you just open the HTML file in a browser pointed at the Flask server. No install beyond pip install and pulling the model weights.
 Happy to answer questions about the implementation. The voice design consistency system was probably the trickiest part to get right — making sure every paragraph sounds like the same person when you're designing a voice from scratch rather than cloning one.
+
 
 # User guide
 
@@ -141,8 +143,6 @@ Once the backend is running, open the frontend interface using the link in the t
 > ```
 
 
-
-
 ### 6. Loading the Model
 
 The Load Model button pulses lavender until the model is loaded. Once loaded it turns amber and stays lit. The model only needs to be loaded once per session.
@@ -168,9 +168,7 @@ OmniVoice Audio Studio supports two voice modes: Voice Clone (from a reference a
 
 Clone any voice from a short reference audio clip.
 
-
 <img width="905" height="267" alt="image" src="https://github.com/user-attachments/assets/c4d04f33-b737-4891-a8b7-147632d0ba08" />
-
 
 **1\. Select a speaker slot** (1-4) by clicking its tab at the top of the Voice Setup card.
 
@@ -189,6 +187,7 @@ Clone any voice from a short reference audio clip.
 Design a voice from scratch using text attributes — no reference audio required.
 
 <img width="906" height="704" alt="image" src="https://github.com/user-attachments/assets/964488bc-4d14-4072-9897-faaa8e2019f3" />
+
 
 |     |     |
 | --- | --- |
@@ -213,11 +212,14 @@ Design a voice from scratch using text attributes — no reference audio require
 
 **NOTE:** Voice Clone and Voice Designer are mutually exclusive per speaker. If a clone is loaded, the designer is blocked for that speaker. Clear the clone first to switch modes.
 
+---
+
 ## **Generation Parameters**
 
 Click the Generation Parameters collapsible to expand. These settings apply globally to all generations.
 
 <img width="906" height="450" alt="image" src="https://github.com/user-attachments/assets/5de5cd1b-1fcc-4c30-800b-607cb4da2591" />
+
 
 |     |     |     |
 | --- | --- | --- |
@@ -228,6 +230,8 @@ Click the Generation Parameters collapsible to expand. These settings apply glob
 | Seed | 42  | Global seed for reproducible output. Each paragraph also has its own seed slider. |
 | Default Pause | 0.3s | Silence gap inserted between paragraphs. Can be overridden per paragraph. |
 | Split By | Paragraph | How input text is split into paragraphs on Parse: by blank line, newline, or sentence. |
+
+---
 
 ## **Text Input & Parsing**
 
@@ -240,6 +244,7 @@ Paste your script into the Text Input area ensuring there are clear line breaks 
 
 <img width="869" height="302" alt="image" src="https://github.com/user-attachments/assets/0db0bc4e-1bf6-4ab8-9f02-3f638abc391b" />
 
+
 |     |     |
 | --- | --- |
 | **Syntax** | **Effect** |
@@ -247,9 +252,11 @@ Paste your script into the Text Input area ensuring there are clear line breaks 
 | \[pause\] | Inserts a pause of the default duration at that point in the audio. |
 | \[pause 1.5s\] | Inserts a precise 1.5 second silence at that point in the audio. This is can be changed to any pause length. |
 
+
 ### **Split By Options**
 
 <img width="418" height="181" alt="image" src="https://github.com/user-attachments/assets/5c017e71-858e-4b1f-ad3b-6c40e2e33a54" />
+
 
 |     |     |     |
 | --- | --- | --- |
@@ -260,11 +267,14 @@ Paste your script into the Text Input area ensuring there are clear line breaks 
 
 **NOTE:** Parse Text is disabled after audio has been generated. Use Reset All to start fresh with new text.
 
+---
+
 ## **Paragraph Management**
 
 ### **Paragraph Status**
 
 <img width="856" height="153" alt="image" src="https://github.com/user-attachments/assets/fdbc34dd-fe4a-476f-a99c-d593bdacf488" />
+
 
 |     |     |     |
 | --- | --- | --- |
@@ -277,6 +287,7 @@ Paste your script into the Text Input area ensuring there are clear line breaks 
 ### **Per-Paragraph Controls**
 
 <img width="864" height="220" alt="image" src="https://github.com/user-attachments/assets/8f0a0a50-aa2a-437a-8f7d-14297b91d100" />
+
 
 |     |     |
 | --- | --- |
@@ -295,6 +306,7 @@ Between every pair of paragraphs are + Text and + Media insert buttons:
 
 <img width="129" height="46" alt="image" src="https://github.com/user-attachments/assets/f02a5546-7cd2-4474-95c4-cd2338c68d1b" />
 
+
 - \+ Text — insert a new empty text paragraph at that position
 - \+ Media — insert an audio file (music, SFX, ambience) at that position on the Media timeline track
 
@@ -305,7 +317,7 @@ The Regenerate Pending button appears automatically when any paragraph has been 
 <img width="907" height="607" alt="image" src="https://github.com/user-attachments/assets/25e6753a-cfb0-4963-91ba-85b4d2e260de" />
 
 
-**7 Generating Audio**
+### **Generating Audio**
 
 **1\. Load the model** and set up at least one voice (clone or designer).
 
@@ -321,15 +333,19 @@ The Regenerate Pending button appears automatically when any paragraph has been 
 
 **TIP:** Individual paragraph seeds are shown as sliders. Default of 42 gives reproducible output. Change the seed to get a different voice variation for a specific paragraph.
 
+---
+
 ## **Timeline Editor**
 
 The timeline shows two tracks — Voice (top) and Media (bottom). Each generated paragraph becomes a clip on the Voice track. Media files appear on the Media track and can be positioned freely.
 
 <img width="904" height="496" alt="image" src="https://github.com/user-attachments/assets/e398e46f-3cc7-4670-9c8c-7b1be3c5211b" />
 
+
 ### **Timeline Controls**
 
 <img width="388" height="38" alt="image" src="https://github.com/user-attachments/assets/5bf37b2b-00e0-4111-8f93-f95c7f84bfb4" />
+
 
 |     |     |
 | --- | --- |
@@ -348,7 +364,12 @@ The timeline shows two tracks — Voice (top) and Media (bottom). Each generated
 
 **TIP:** Zoom in for precise trimming of silence at the start or end of a clip. Zoom out for an overview of the full project layout.
 
+---
+
 ## **Combined Output & Export**
+
+<img width="607" height="54" alt="image" src="https://github.com/user-attachments/assets/ce219ea6-84f6-488c-8ca2-a3c42679fc24" />
+
 
 **1\. Combine All** — merges all paragraph audio, applying all pauses and timeline positions into a single audio buffer.
 
@@ -357,6 +378,8 @@ The timeline shows two tracks — Voice (top) and Media (bottom). Each generated
 **3\. Download WAV** — exports the final output as a 24kHz 32-bit float WAV file, ready for use in any DAW or podcast host.
 
 **TIP:** If you adjust clip positions in the timeline after combining, click Combine All again to rebuild the output with the updated layout.
+
+---
 
 ## **Episodes — Save & Load**
 
@@ -384,6 +407,8 @@ Episodes save your entire project: all text, generated audio, timeline layout, v
 
 **NOTE:** Voice reference files are not saved in the episode — only the generated audio. Keep your original reference audio clips if you need to regenerate with the same cloned voice.
 
+---
+
 ## **Pronunciation Dictionary**
 
 Define word substitutions that apply automatically before every generation. Useful for proper nouns, acronyms, or technical terms the model may mispronounce.
@@ -405,6 +430,8 @@ Define word substitutions that apply automatically before every generation. Usef
 | SQL | sequel |
 | Dr. | Doctor |
 | APIs | A P I s |
+
+---
 
 ## **Tips & Best Practices**
 
