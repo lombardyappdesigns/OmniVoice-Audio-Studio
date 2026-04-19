@@ -66,7 +66,7 @@ Happy to answer questions about the implementation. The voice design consistency
 | --- | --- |
 | **Component** | **Requirement** |
 | Operating System | Windows 10+, macOS 12+, Ubuntu 20+ |
-| Python | 3.10 or higher |
+| Python | 3.12 or higher |
 | RAM | 8 GB minimum (16 GB recommended) |
 | Storage | ~5 GB for model weights |
 | GPU | Optional but strongly recommended |
