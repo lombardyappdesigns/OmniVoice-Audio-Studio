@@ -64,6 +64,7 @@ Create and activate the virtual environment:
 
 ```bash
 python -m venv venv
+
 .\venv\Scripts\activate
 ```
 
