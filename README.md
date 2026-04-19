@@ -86,6 +86,12 @@ Happy to answer questions about the implementation. The voice design consistency
 
 Ensure you have **Python 3.12** installed. A virtual environment keeps your project dependencies isolated from your global Python installation, preventing version conflicts.
 
+
+File Structure
+
+<img width="709" height="559" alt="image" src="https://github.com/user-attachments/assets/effd1087-4da6-4257-8339-2e33db67b8c2" />
+
+
 Create and activate the virtual environment:
 
 ```bash
