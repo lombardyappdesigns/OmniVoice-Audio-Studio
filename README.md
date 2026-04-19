@@ -44,7 +44,7 @@ The whole thing runs locally — you just open the HTML file in a browser pointe
 Happy to answer questions about the implementation. The voice design consistency system was probably the trickiest part to get right — making sure every paragraph sounds like the same person when you're designing a voice from scratch rather than cloning one.
 
 
-# User guide
+# Installation and User guide
 
 **1 System Requirements & Installation**
 
