@@ -43,7 +43,7 @@ Media track for dropping in music, SFX or ambience alongside your voice content
 Smart text parser — paste your script, it splits into paragraphs automatically. Use [Speaker 2]: to switch voices, [pause 2s] to insert timed silences
 Episode save/load — saves everything: text, audio, timeline layout, voice settings, generation params
 Pronunciation dictionary — fix proper nouns and technical terms once, applies to all generations
-600+ language support out of the box, zero-shot
+600+ language support out of the box, zero-shot voice cloning.
 
 ## Hardware:
 
