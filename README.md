@@ -20,6 +20,13 @@ https://github.com/user-attachments/assets/4c650032-6295-49b6-878e-aaf8b84b6f01
 - 💿 **WAV Export** — one-click 24kHz WAV download
 
 
+# **One time Purchase**
+
+Available for a one time purchase price of $7.99
+
+**Buy here:** https://payhip.com/b/Tt39j
+
+
 # What it does:
 
 It lets you turn a script into a finished, multi-speaker audio production — think podcast episodes, audiobook chapters, narrated videos — entirely on your own machine. No cloud, no subscriptions, no data leaving your computer.
