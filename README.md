@@ -49,13 +49,6 @@ Pronunciation dictionary — fix proper nouns and technical terms once, applies 
 
 Runs on NVIDIA GPU, Apple Silicon (MPS), or CPU. Output is 24kHz WAV.
 
-## Tech stack:
-
-Python/Flask backend, pure HTML/JS frontend (single file, no framework), OmniVoice diffusion model.
-The whole thing runs locally — you just open the HTML file in a browser pointed at the Flask server. No install beyond pip install and pulling the model weights.
-Happy to answer questions about the implementation. The voice design consistency system was probably the trickiest part to get right — making sure every paragraph sounds like the same person when you're designing a voice from scratch rather than cloning one.
-
-
 # Installation and User guide
 
 **1 System Requirements & Installation**
