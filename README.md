@@ -87,7 +87,7 @@ Happy to answer questions about the implementation. The voice design consistency
 Ensure you have **Python 3.12** installed. A virtual environment keeps your project dependencies isolated from your global Python installation, preventing version conflicts.
 
 
-File Structure
+**Setup File Structure**
 
 Below is the file structure for the inital setup for install. All models download automatically once the system is up and running.
 
