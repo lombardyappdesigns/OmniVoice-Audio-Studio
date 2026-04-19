@@ -168,7 +168,9 @@ OmniVoice Audio Studio supports two voice modes: Voice Clone (from a reference a
 
 Clone any voice from a short reference audio clip.
 
+
 <img width="905" height="267" alt="image" src="https://github.com/user-attachments/assets/c4d04f33-b737-4891-a8b7-147632d0ba08" />
+
 
 **1\. Select a speaker slot** (1-4) by clicking its tab at the top of the Voice Setup card.
 
