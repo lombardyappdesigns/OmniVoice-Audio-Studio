@@ -89,7 +89,7 @@ Ensure you have **Python 3.12** installed. A virtual environment keeps your proj
 
 **Setup File Structure**
 
-Below is the file structure for the inital setup for install. All models download automatically once the system is up and running.
+Below is the file structure for the initial setup for install. All models download automatically once the system is up and running.
 
 <img width="709" height="559" alt="image" src="https://github.com/user-attachments/assets/effd1087-4da6-4257-8339-2e33db67b8c2" />
 
