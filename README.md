@@ -147,6 +147,8 @@ Once the backend is running, open the frontend interface using the link in the t
 
 The Load Model button pulses lavender until the model is loaded. Once loaded it turns amber and stays lit. The model only needs to be loaded once per session.
 
+<img width="904" height="241" alt="image" src="https://github.com/user-attachments/assets/d0c01f95-b2dd-4d53-a5ca-504e40db7d41" />
+
 |     |     |     |
 | --- | --- | --- |
 | **Setting** | **Options** | **Recommendation** |
