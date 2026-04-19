@@ -1,3 +1,5 @@
+<img width="623" height="163" alt="image" src="https://github.com/user-attachments/assets/a309b9b7-9025-4bb9-90e0-7b86c308f5fb" />
+
 # OmniVoice Audio Studio
 
 OmniVoice Audio Studio is a self-hosted, browser-based podcast and audiobook production tool built on the [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice)e diffusion TTS model. It provides a full editorial workflow — multi-speaker voice cloning, a voice designer with accent and attribute controls, a multi-track timeline editor with waveform display, ripple editing and trim handles, per-paragraph generation with seed control, episode save/load, a pronunciation dictionary, and one-click WAV export. Supports 600+ languages, runs entirely on your own hardware (CUDA, MPS, or CPU), and requires no cloud services or API keys. Built with Python/Flask and a single-file HTML/JS frontend.
