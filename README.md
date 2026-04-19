@@ -226,7 +226,7 @@ Click the Generation Parameters collapsible to expand. These settings apply glob
 
 ## **Text Input & Parsing**
 
-Paste your script into the Text Input area and click Parse Text to split it into paragraphs.
+Paste your script into the Text Input area ensuring there are clear line breaks between paragraphs and click Parse Text to split it into paragraphs.
 
 <img width="902" height="1064" alt="image" src="https://github.com/user-attachments/assets/ef965db9-f821-4e16-b3c2-88df25dc6e2e" />
 
