@@ -6,6 +6,9 @@ OmniVoice Audio Studio is a fully self-hosted, browser-based audio production to
 
 It lets you turn a script into a finished, multi-speaker audio production — think podcast episodes, audiobook chapters, narrated videos — entirely on your own machine. No cloud, no subscriptions, no data leaving your computer.
 
+<img width="911" height="881" alt="image" src="https://github.com/user-attachments/assets/06fc59ba-51c4-493a-b1ca-93031a7c5b34" />
+
+
 ## Key features:
 
 Voice cloning from a 3–10 second reference clip. Up to 4 independent speakers per project
@@ -162,6 +165,8 @@ OmniVoice Audio Studio supports two voice modes: Voice Clone (from a reference a
 
 Clone any voice from a short reference audio clip.
 
+<img width="905" height="267" alt="image" src="https://github.com/user-attachments/assets/c4d04f33-b737-4891-a8b7-147632d0ba08" />
+
 **1\. Select a speaker slot** (1-4) by clicking its tab at the top of the Voice Setup card.
 
 **2\. Click Choose Audio File** and select a WAV, MP3 or other audio file. 3-10 seconds of clean speech is ideal. Files longer than 10 seconds are automatically trimmed.
@@ -177,6 +182,8 @@ Clone any voice from a short reference audio clip.
 ## **Voice Designer**
 
 Design a voice from scratch using text attributes — no reference audio required.
+
+<img width="906" height="704" alt="image" src="https://github.com/user-attachments/assets/964488bc-4d14-4072-9897-faaa8e2019f3" />
 
 |     |     |
 | --- | --- |
@@ -205,6 +212,8 @@ Design a voice from scratch using text attributes — no reference audio require
 
 Click the Generation Parameters collapsible to expand. These settings apply globally to all generations.
 
+<img width="906" height="450" alt="image" src="https://github.com/user-attachments/assets/5de5cd1b-1fcc-4c30-800b-607cb4da2591" />
+
 |     |     |     |
 | --- | --- | --- |
 | **Parameter** | **Default** | **Description** |
@@ -219,16 +228,23 @@ Click the Generation Parameters collapsible to expand. These settings apply glob
 
 Paste your script into the Text Input area and click Parse Text to split it into paragraphs.
 
+<img width="902" height="1064" alt="image" src="https://github.com/user-attachments/assets/ef965db9-f821-4e16-b3c2-88df25dc6e2e" />
+
+
 ### **Special Syntax**
+
+<img width="869" height="302" alt="image" src="https://github.com/user-attachments/assets/0db0bc4e-1bf6-4ab8-9f02-3f638abc391b" />
 
 |     |     |
 | --- | --- |
 | **Syntax** | **Effect** |
 | \[Speaker 2\]: | Assigns the following paragraph to Speaker 2's voice. Works with speakers 1-4. |
 | \[pause\] | Inserts a pause of the default duration at that point in the audio. |
-| \[pause 1.5s\] | Inserts a precise 1.5 second silence at that point in the audio. |
+| \[pause 1.5s\] | Inserts a precise 1.5 second silence at that point in the audio. This is can be changed to any pause length. |
 
 ### **Split By Options**
+
+<img width="418" height="181" alt="image" src="https://github.com/user-attachments/assets/5c017e71-858e-4b1f-ad3b-6c40e2e33a54" />
 
 |     |     |     |
 | --- | --- | --- |
@@ -243,6 +259,8 @@ Paste your script into the Text Input area and click Parse Text to split it into
 
 ### **Paragraph Status**
 
+<img width="856" height="153" alt="image" src="https://github.com/user-attachments/assets/fdbc34dd-fe4a-476f-a99c-d593bdacf488" />
+
 |     |     |     |
 | --- | --- | --- |
 | **Status** | **Appearance** | **Meaning** |
@@ -252,6 +270,8 @@ Paste your script into the Text Input area and click Parse Text to split it into
 | generating | Lavender border | Currently being processed |
 
 ### **Per-Paragraph Controls**
+
+<img width="864" height="220" alt="image" src="https://github.com/user-attachments/assets/8f0a0a50-aa2a-437a-8f7d-14297b91d100" />
 
 |     |     |
 | --- | --- |
@@ -268,12 +288,17 @@ Paste your script into the Text Input area and click Parse Text to split it into
 
 Between every pair of paragraphs are + Text and + Media insert buttons:
 
+<img width="129" height="46" alt="image" src="https://github.com/user-attachments/assets/f02a5546-7cd2-4474-95c4-cd2338c68d1b" />
+
 - \+ Text — insert a new empty text paragraph at that position
 - \+ Media — insert an audio file (music, SFX, ambience) at that position on the Media timeline track
 
 ### **Regenerate Pending**
 
 The Regenerate Pending button appears automatically when any paragraph has been edited, split, or is waiting for generation. Clicking it generates all pending/edited paragraphs in sequence.
+
+<img width="907" height="607" alt="image" src="https://github.com/user-attachments/assets/25e6753a-cfb0-4963-91ba-85b4d2e260de" />
+
 
 **7 Generating Audio**
 
@@ -295,7 +320,11 @@ The Regenerate Pending button appears automatically when any paragraph has been 
 
 The timeline shows two tracks — Voice (top) and Media (bottom). Each generated paragraph becomes a clip on the Voice track. Media files appear on the Media track and can be positioned freely.
 
+<img width="904" height="496" alt="image" src="https://github.com/user-attachments/assets/e398e46f-3cc7-4670-9c8c-7b1be3c5211b" />
+
 ### **Timeline Controls**
+
+<img width="388" height="38" alt="image" src="https://github.com/user-attachments/assets/5bf37b2b-00e0-4111-8f93-f95c7f84bfb4" />
 
 |     |     |
 | --- | --- |
@@ -330,6 +359,8 @@ Episodes save your entire project: all text, generated audio, timeline layout, v
 
 ### **Saving an Episode**
 
+<img width="498" height="316" alt="image" src="https://github.com/user-attachments/assets/19cddb0a-52b2-4419-a186-20dd4d413636" />
+
 **1\. Click Save Episode** or open the Episodes panel and click the Save tab.
 
 **2\. Enter a name** for your episode and click Save.
@@ -337,6 +368,8 @@ Episodes save your entire project: all text, generated audio, timeline layout, v
 **3\. Episodes are stored** on the server in the episodes/ folder. Saving over an existing name overwrites it.
 
 ### **Loading an Episode**
+
+<img width="505" height="278" alt="image" src="https://github.com/user-attachments/assets/35d21544-4690-4aa5-b27c-2848674675a7" />
 
 **1\. Click the Episodes button** in the header toolbar.
 
@@ -349,6 +382,8 @@ Episodes save your entire project: all text, generated audio, timeline layout, v
 ## **Pronunciation Dictionary**
 
 Define word substitutions that apply automatically before every generation. Useful for proper nouns, acronyms, or technical terms the model may mispronounce.
+
+<img width="501" height="293" alt="image" src="https://github.com/user-attachments/assets/736158dc-05e4-479b-b038-441e50661659" />
 
 **1\. Click Pronunciations** in the header toolbar.
 
