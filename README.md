@@ -71,7 +71,7 @@ Runs on NVIDIA GPU, Apple Silicon (MPS), or CPU. Output is 24kHz WAV.
 
 # Installation and User guide
 
-### 1. Set Up Virtual Environment
+### 1. Set Up The Virtual Environment
 
 Ensure you have **Python 3.12** installed. A virtual environment keeps your project dependencies isolated from your global Python installation, preventing version conflicts.
 
