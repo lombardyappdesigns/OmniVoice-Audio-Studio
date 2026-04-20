@@ -49,8 +49,6 @@ Pronunciation dictionary — fix proper nouns and technical terms once, applies 
 
 Runs on NVIDIA GPU, Apple Silicon (MPS), or CPU. Output is 24kHz WAV.
 
-# Installation and User guide
-
 ### **Minimum Requirements**
 
 |     |     |
@@ -71,7 +69,7 @@ Runs on NVIDIA GPU, Apple Silicon (MPS), or CPU. Output is 24kHz WAV.
 | Apple Silicon | MPS | Good performance |
 | CPU only | CPU | Works, but generation is slow |
 
-## Installation
+# Installation and User guide
 
 ### 1. Set Up Virtual Environment
 
