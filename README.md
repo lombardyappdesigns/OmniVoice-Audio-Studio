@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/4c650032-6295-49b6-878e-aaf8b84b6f01
 
 # **One time Purchase**
 
-The OmniVoice Audio Studio interface is available for a one time purchase price of $3.99
+The OmniVoice Audio Studio interface is available for a one time purchase price of **$3.99**
 
 **Buy here:** https://payhip.com/b/Tt39j
 
