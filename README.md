@@ -87,8 +87,12 @@ Below is the file structure for the initial setup for install. All models downlo
 <img width="709" height="559" alt="image" src="https://github.com/user-attachments/assets/effd1087-4da6-4257-8339-2e33db67b8c2" />
 
 
+The folder structure should look like this. The HTML file should be placed into the templates folder.
 
-Create and activate the virtual environment:
+<img width="596" height="91" alt="image" src="https://github.com/user-attachments/assets/e288fb97-9aac-43be-b20e-d5ea11c558c5" />
+
+
+**Create and activate the virtual environment**
 
 In terminal run the following commands.
 
