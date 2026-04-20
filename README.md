@@ -20,11 +20,11 @@ https://github.com/user-attachments/assets/4c650032-6295-49b6-878e-aaf8b84b6f01
 - 💿 **WAV Export** — one-click 24kHz WAV download
 
 
-# **One time Purchase**
+# **If you like it, why not buy me a coffee?**
 
-The OmniVoice Audio Studio interface is available for a one time purchase price of **$3.99**
+If you like this application and would like to see further features added, then why not buy me a coffee?
 
-**Buy here:** https://payhip.com/b/Tt39j
+**Buy me a coffee here:** [Click here to buy](https://buymeacoffee.com/lombardyappdesigns)
 
 
 # What it does:
