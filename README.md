@@ -226,7 +226,7 @@ Design a voice from scratch using text attributes — no reference audio require
 | --- | --- |
 | **Attribute** | **Options** |
 | Gender | Male, Female |
-| Age | Child, Teenager, Young Adult, Middle-aged, Elderly |
+| Age | Teenager, Young Adult, Middle-aged, Elderly |
 | Pitch | Very Low, Low, Moderate, High, Very High |
 | Style | Whisper (or leave blank for normal) |
 | English Accent | British, American, Australian, Indian, and 6 more |
