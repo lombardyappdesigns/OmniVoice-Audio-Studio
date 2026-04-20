@@ -92,6 +92,7 @@ The folder structure should look like this. The HTML file should be placed into 
 <img width="596" height="91" alt="image" src="https://github.com/user-attachments/assets/e288fb97-9aac-43be-b20e-d5ea11c558c5" />
 
 
+
 **Create and activate the virtual environment**
 
 In terminal run the following commands.
