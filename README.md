@@ -51,8 +51,6 @@ Runs on NVIDIA GPU, Apple Silicon (MPS), or CPU. Output is 24kHz WAV.
 
 # Installation and User guide
 
-**1 System Requirements & Installation**
-
 ### **Minimum Requirements**
 
 |     |     |
