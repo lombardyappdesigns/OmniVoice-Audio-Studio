@@ -1,0 +1,35 @@
+# OmniVoice TTS Web Application
+# Install PyTorch first (choose the right CUDA version for your system):
+#
+#   NVIDIA GPU (CUDA 12.8):
+#     pip install torch==2.8.0+cu128 torchaudio==2.8.0+cu128 --extra-index-url https://download.pytorch.org/whl/cu128
+#
+#   Apple Silicon (MPS):
+#     pip install torch==2.8.0 torchaudio==2.8.0
+#
+#   CPU only:
+#     pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+#
+# Then install everything else:
+#   pip install -r requirements.txt
+
+# Core TTS engine
+omnivoice
+
+# Web server
+flask
+
+# Audio I/O
+soundfile
+librosa
+
+# Numerical
+numpy
+
+# Hugging Face model download
+huggingface_hub
+
+# Optional: Whisper for auto-transcription of reference audio
+# Improves voice cloning quality by supplying ref_text automatically.
+# Comment out if you don't need it.
+openai-whisper
