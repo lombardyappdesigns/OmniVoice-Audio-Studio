@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/4c650032-6295-49b6-878e-aaf8b84b6f01
 
 # **If you like it, why not buy me a coffee?**
 
-If you like this application and would like to see further features added, then why not buy me a coffee?
+If you like this application and are using it and would like to see further features added, then why not buy me a coffee?
 
 **Buy me a coffee here:** [Click here to buy](https://buymeacoffee.com/lombardyappdesigns)
 
